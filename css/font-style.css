@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+body{
+	font-size:15px;
+	font-family:"Rubik";
+	font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6,
+.schedule-item .sc-info h3{
+	font-weight:800;
+}
+
+h1,h2,h3,h4,h5,h6,
+.big-white,
+.ultra-big-white,
+.de_tab.tab_steps .de_nav li span,
+.teaser-text,
+.text-slider,
+#mainmenu,
+.btn,
+a.btn,
+.btn-line,
+a.btn-line,
+#filters,
+.ultra-big-white,
+.wm,
+blockquote.testimonial-big.s2 .title,
+.tp-title,
+.countdown-amount,
+.countdown-period,
+.de_count h3,
+.ultra-big-2,
+.tp-caption,
+.pricing-s1.light .top .price b,
+blockquote.testimonial-big .title,
+#mo-menu{
+font-family: 'Red Hat Display',Arial, Helvetica, sans-serif;
+}
+
+
+#mo-menu > li{
+	font-weight:bold;
+}
+
+h1,h2,h3,h4,h5,h6,
+.de_tab.tab_steps .de_nav li span
+{
+letter-spacing:0;
+text-transform:none;
+}
+
+#subheader h1{
+	letter-spacing:0;
+	text-transform:none;
+}
+
+.blog-list h3, .blog-read h3{
+font-size:22px;
+}
+
+.big-white{
+	font-size:13px;
+}
+
+.ultra-big-white{
+	letter-spacing:0;
+	text-transform:none;
+	font-weight:600;
+	font-size:72px;
+}
+
+.text-slider{
+font-size:60px;
+letter-spacing:5px;
+}
+
+.big-custom-1{
+	font-family:"Red Hat Display";
+	font-size:60px;
+	letter-spacing:0;
+	font-weight:bold;
+	line-height:1.1em;
+	letter-spacing:-1px;
+}
+
+.small-white{
+	font-size:18px;
+	font-weight:400;
+}
+
+blockquote.testimonial-big{
+	font-size:22px;
+	font-style:none;
+	line-height:1.8em;
+}
