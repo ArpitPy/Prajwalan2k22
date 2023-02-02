@@ -7,8 +7,9 @@
 body{
     display: flex;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
     background: rgba(0,0,0,0.83)url(https://media.giphy.com/media/7VzgMsB6FLCilwS30v/giphy.gif);
     background-size: cover;
     background-blend-mode: darken;
@@ -19,9 +20,12 @@ body{
     max-width: 650px;
     background:#140615b3;
     padding: 28px;
-    margin: 0 28px;
     border-radius: 10px;
     box-shadow:5px 5px 10px 2px  rgba(6, 0, 8, 0.66);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .container__form-title{
