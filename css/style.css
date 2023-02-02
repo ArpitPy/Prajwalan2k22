@@ -52,6 +52,15 @@ html{
 background:#000000 !important;
 }
 
+/* #preloader{
+	background: #000 url(../images/circle-loader-gif-2.gif) no-repeat center center;
+	height: 100vh;
+	width: 100%;
+    position:fixed;
+	z-index: 100;
+	
+} */
+
 body {
 	display:none;
 	font-family: "Open Sans",Arial, Helvetica, sans-serif;
@@ -6475,15 +6484,15 @@ transition:.5s;
 }
 .schedule-item .sc-time {
 	font-weight:bold;
-	width: 160px;
+	max-width: 160px;
 	padding-top: 25px;
 	font-size:14px;
 }
 .schedule-item .sc-pic {
-	width: 120px;
+	max-width : 120px;
 }
 .schedule-item .sc-pic img {
-	width: 90px;
+	max-width: 90px;
 	padding:5px;
 	height: auto;
 }
