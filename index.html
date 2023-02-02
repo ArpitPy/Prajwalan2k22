@@ -2,58 +2,62 @@
 <html lang="en">
 
 <head>
-	<title>Footer Design</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/footer1/footer.css">									 <!--link for css file-->
-	<script src="https://kit.fontawesome.com/0b62b37b15.js" crossorigin="anonymous"></script>  <!-- link for social media logo -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" media="screen and (max-width:920px )" href="/nav-responsive.css"> <!--Responsive -->
+    <script src="https://kit.fontawesome.com/0b62b37b15.js" crossorigin="anonymous"></script> <!--for menu button logo-->
 </head>
 
 <body>
+    <nav class="navbar">
 
-	<footer class="footer">
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label> <!--menu button-->
+        <div class="wrapper"> <!--menu button content-->
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Events</a></li>
+               <li><a href="#">Register</a></li>
+               <li><a href="#">Sponsors</a></li>
+            </ul>
+         </div>
 
-		<div class="footer-container">                                <!--Main container (main div)-->
-			<div class="footer-row">
+         
+        <div class="nav-container"> <!--navbar content1-->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
 
-				<div class="footer-col">                              <!--Column 01--> 
-					<img src="/footer1/zyro-image.png" alt="fg" class="footer-logo"> <!-- Prajwalan logo -->
-				</div>
+            </ul>
+        </div>
 
-				<div class="footer-col">                              <!-- Column 02 --> 
-					<h4>Address</h4>                                  <!--Column heading  -->
+        <div class="nav-container-2"> <!--Title-->
+            <a href="#">
+                <p>PRAJWALAN</p>
+            </a>
+        </div>
 
-					<p>Government College of Engineering</p>
-					<p>Kathora Naka, Amravati</p>
-					<p>Pin-444604</p>
-					<p><a href="#" class="gcoea-website">www.gcoea.ac.in</a></p> <!-- Gcoea Website -->
+        <div class="nav-container-3"> <!--navbar content2-->
+            <div class="nav-container-3">
+            <ul>
 
-				</div>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </div>
+    </nav>
 
-				<div class="footer-col">                             <!-- Column 03  -->
-					<h4>Help</h4>                                  <!-- Column heading --> 
-					<ul>
-						<li><a href="#">FAQs</a></li>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Register</a></li>
 
-					</ul>
-				</div>
 
-				<div class="footer-col">                                  <!-- Column 04 -->
-					<h4>follow us</h4>                                  <!--column heading  --> 
 
-					<div class="social-links">
-						<a href="#"><i class="fa-brands fa-facebook"></i></a>
-						<a href="#"><i class="fa-brands fa-instagram"></i></a>
-						<a href="#"><i class="fa-brands fa-twitter"></i></a>
-						<a href="#"><i class="fa-brands fa-youtube"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
 
 </body>
 
