@@ -1,0 +1,149 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.83)url(https://media.giphy.com/media/7VzgMsB6FLCilwS30v/giphy.gif);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    width: 100%;
+    max-width: 650px;
+    background:#140615b3;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px 2px  rgba(6, 0, 8, 0.66);
+}
+
+.container__form-title{
+    font-size: 26px;
+    font-weight: 600;
+    opacity: 100%;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+
+.container__main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+.container__user-input-box:nth-child(2n){
+    justify-content: end;
+
+}
+
+.container__user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-top: 15px;
+}
+
+.container__user-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+
+}
+
+.container__user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+
+.container__gender-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+
+}
+
+.container__gender-category{
+    margin: 15px 0;
+    color: white;
+
+}
+.container__gender-category label{
+    padding: 0 20px 0 5px;
+
+}
+.container__gender-category label,
+.container__gender-category input,
+.container__btn{
+        cursor: pointer;
+ }
+
+ .container__btn{
+    margin-top: 40px;
+ }
+ .container__btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(209, 209,209);
+    background: #36004d;
+ }
+
+.container__btn:hover{
+    background:#030003b3;
+    color:rgba(252, 249, 249, 0.7);
+
+
+ }
+
+
+ @media(max-width:600px){
+    .container{
+        min-width: 280px;
+    }
+    .container__user-input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .container__user-input-box:nth-child(2n){
+        justify-content: space-between;
+
+    }
+
+    .container__gender-category{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .container__main-user-info{
+        max-height: 380px;
+        overflow: auto;
+
+    }
+    .container__main-user-info::-webkit-scrollbar{
+        width: 0;
+    }
+ }
