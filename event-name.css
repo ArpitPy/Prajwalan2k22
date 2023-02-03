@@ -1,0 +1,102 @@
+body{
+    background:#000000 !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.para{
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     font-weight:400;
+    font-size: larger;
+    line-height: 1.8em;
+    padding: 0;
+    color: wheat;
+   }  
+   h1 {
+    text-align: center;
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: 800;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    padding: 20px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, #883ff9 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }   
+.box-fix{
+    margin-left:64px ;
+    margin-right: 64px;
+    width: 500px;
+    height:500px;
+}  
+.box-fix2{
+    margin-left:50px ;
+    margin-right: 64px;
+    width: 500px;
+    height:500px;
+}  
+.detail{
+    font-size: larger;
+    color: white;
+}
+.Event{
+    height: 3cm;
+    font-size: large;
+    color: white;
+}
+
+.header{
+
+
+
+  padding: -13px;
+  box-shadow: 0 5px 15px rgba(184, 99, 233, 0.26);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+  
+}
+.box1{
+  margin: 20px;
+  padding: 20px;
+
+
+}
+.button{
+  Background-color: #58058b  ;
+  padding: 10px; border-radius: 5%; 
+  width: 23%;
+  min-width: 250px;
+  font-size: large;
+  padding: 10px 12px ;
+  border: 1px solid rgb(182, 144, 197);
+  cursor: pointer;
+  /* box-shadow: 20px 20px 30px rgba(184, 99, 233, 0.26); */
+  margin: 15px;
+  transition: 0.2s ease;
+}
+.button:hover{
+  box-shadow: 20px 20px 30px rgba(184, 99, 233, 0.26);
+  color: antiquewhite;
+}
