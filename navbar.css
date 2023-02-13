@@ -1,0 +1,144 @@
+* {
+  margin: 0%;
+  padding: 0;
+
+
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 70px;
+  z-index: 100;
+}
+
+.navbar::before {
+  content: "";
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background: black;
+  z-index: -1;
+
+}
+
+.nav-container {
+
+  width: 30%;
+  float: left;
+
+}
+
+.nav-container ul {
+
+  display: flex;
+}
+
+.nav-container ul li {
+  list-style: none;
+  font-size: 1rem;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+
+
+}
+
+.nav-container ul li a {
+  color: azure;
+  display: block;
+  padding: 3.5px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform .3s;
+
+}
+
+.nav-container ul li a:hover {
+  color: black;
+  background-color: aliceblue;
+  opacity: 0.75;
+  transform: scale(1.2);
+}
+
+
+/* Container 2*/
+
+.nav-container-2 {
+  width: 40%;
+  text-align: center;
+  margin: 0;
+}
+
+.nav-container-2 a {
+  text-decoration: none;
+}
+
+.nav-container-2 p {
+  font-family: 'Laila', sans-serif;
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+
+
+/*container 3*/
+
+.nav-container-3 {
+  width: 30%;
+  float: right;
+
+}
+
+.nav-container-3 ul {
+
+  display: flex;
+  float: right;
+}
+
+.nav-container-3 ul li {
+  list-style: none;
+  font-size: 1rem;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+
+}
+
+.nav-container-3 ul li a {
+  color: azure;
+  display: block;
+  padding: 3.5px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform .3s;
+
+}
+
+.nav-container-3 ul li a:hover {
+  color: black;
+  background-color: aliceblue;
+  opacity: 0.75;
+  transform: scale(1.2);
+}
+
+
+
+
+/*menu button*/
+
+
+
+
+.wrapper{
+  display: none;
+}
+
+#active{
+  display: none;
+}
