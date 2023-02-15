@@ -1,3 +1,7 @@
+*{
+	-webkit-tap-highlight-color: transparent;
+}
+
 body {
 	background: #262a2b;
 }

@@ -1,3 +1,7 @@
+*{
+	-webkit-tap-highlight-color: transparent;
+}
+
 .event-card{
   display: flex;
   flex-direction: column;

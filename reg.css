@@ -3,14 +3,16 @@
     padding: none;
     box-sizing: border-box;
     font-family: sans-serif;
+	-webkit-tap-highlight-color: transparent;
 }
+
 body{
     display: flex;
     height: 100vh;
     justify-content: space-between;
     flex-direction: column;
     
-    background: rgba(0,0,0,0.83)url(https://media.giphy.com/media/7VzgMsB6FLCilwS30v/giphy.gif);
+    background: rgba(0,0,0,0.83)url("images/giphy-downsized-large.gif");
     background-size: cover;
     background-blend-mode: darken;
 }
